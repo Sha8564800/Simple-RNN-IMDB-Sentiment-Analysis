@@ -18,19 +18,19 @@ Dense Layer with Sigmoid Activation — Produces the final binary classification
 
 ## Architecture
 Input Review
-     ↓
+     ->
 IMDB Word Index
-     ↓
+     ->
 Sequence of Integers
-     ↓
+     ->
 Padding (500 tokens)
-     ↓
+     ->
 Embedding (128 dimensions)
-     ↓
+     ->
 SimpleRNN (128 units)
-     ↓
+     ->
 Dense (1, Sigmoid)
-     ↓
+     ->
 Positive / Negative
 Dataset
 
